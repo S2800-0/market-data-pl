@@ -14,3 +14,11 @@ venv/
 # Database dumps
 *.dump
 *.sql.bak
+
+# Generated files
+*.csv
+seed_coingecko.py  # One-time script, not part of pipeline
+
+# VS Code
+.vscode/
+settings.json
