@@ -1,0 +1,16 @@
+# Logs
+*.log
+pipeline.log
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# macOS
+.DS_Store
+
+# Database dumps
+*.dump
+*.sql.bak

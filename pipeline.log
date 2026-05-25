@@ -1,0 +1,1518 @@
+/Users/shahy/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/shahy/market-data-pipeline/pipeline_v2.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+/Users/shahy/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/shahy/market-data-pipeline/pipeline_v2.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+/Users/shahy/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/shahy/market-data-pipeline/pipeline_v2.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+/Users/shahy/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/shahy/market-data-pipeline/pipeline_v2.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+/Users/shahy/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/shahy/market-data-pipeline/pipeline_v2.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+/Users/shahy/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/shahy/market-data-pipeline/pipeline_v2.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+/Users/shahy/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/shahy/market-data-pipeline/pipeline_v2.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"🚀 Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+🚀 Pipeline v2 | 2026-05-25T00:13:00.902872Z
+============================================================
+📚 Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+📡 Fetching 5 symbols...
+✅ Fetched 5 prices in 516ms
+
+🔍 Running data quality checks...
+
+============================================================
+📊 PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    516ms
+
+⚠️  REJECTED RECORDS:
+   BTCUSDT: $77,169.99 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+💰 CURRENT PRICES:
+   BTCUSDT: $77,169.99
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.59
+   SOLUSDT: $85.38
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"🚀 Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+🚀 Pipeline v2 | 2026-05-25T00:14:00.984823Z
+============================================================
+📚 Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+📡 Fetching 5 symbols...
+✅ Fetched 5 prices in 1586ms
+
+🔍 Running data quality checks...
+
+============================================================
+📊 PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    1586ms
+
+⚠️  REJECTED RECORDS:
+   BTCUSDT: $77,196.53 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+💰 CURRENT PRICES:
+   BTCUSDT: $77,196.53
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,105.34
+   SOLUSDT: $85.40
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"🚀 Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+🚀 Pipeline v2 | 2026-05-25T00:15:00.958478Z
+============================================================
+📚 Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+📡 Fetching 5 symbols...
+✅ Fetched 5 prices in 423ms
+
+🔍 Running data quality checks...
+
+============================================================
+📊 PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    423ms
+
+⚠️  REJECTED RECORDS:
+   BTCUSDT: $77,189.89 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+💰 CURRENT PRICES:
+   BTCUSDT: $77,189.89
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.94
+   SOLUSDT: $85.40
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"🚀 Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+🚀 Pipeline v2 | 2026-05-25T00:16:00.754146Z
+============================================================
+📚 Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+📡 Fetching 5 symbols...
+✅ Fetched 5 prices in 501ms
+
+🔍 Running data quality checks...
+
+============================================================
+📊 PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    501ms
+
+⚠️  REJECTED RECORDS:
+   BTCUSDT: $77,200.00 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+💰 CURRENT PRICES:
+   BTCUSDT: $77,200.00
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,105.09
+   SOLUSDT: $85.42
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"🚀 Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+🚀 Pipeline v2 | 2026-05-25T00:17:00.729349Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 563ms
+
+🔍 Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    563ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,191.37 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+💰 CURRENT PRICES:
+   BTCUSDT: $77,191.37
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.94
+   SOLUSDT: $85.43
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:18:00.695614Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 666ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    666ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,161.36 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+💰 CURRENT PRICES:
+   BTCUSDT: $77,161.36
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.15
+   SOLUSDT: $85.39
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:19:00.741243Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 494ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    494ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,163.36 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+💰 CURRENT PRICES:
+   BTCUSDT: $77,163.36
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.94
+   SOLUSDT: $85.43
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:20:00.573489Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 573ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    573ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,169.79 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,169.79
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.92
+   SOLUSDT: $85.42
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:21:00.515567Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 765ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    765ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,135.58 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,135.58
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,103.73
+   SOLUSDT: $85.36
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:22:00.746400Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 553ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    553ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,125.77 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,125.77
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,103.17
+   SOLUSDT: $85.36
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:23:00.788470Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 477ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    477ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,152.70 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,152.70
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.49
+   SOLUSDT: $85.44
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:24:00.716877Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 676ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    676ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,214.50 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,214.50
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,106.18
+   SOLUSDT: $85.49
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:25:00.993626Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 639ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    639ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,231.56 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,231.56
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,106.45
+   SOLUSDT: $85.50
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:26:01.147403Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 493ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    493ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,195.65 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,195.65
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,105.33
+   SOLUSDT: $85.45
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:27:01.116534Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 602ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    602ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,194.05 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,194.05
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.98
+   SOLUSDT: $85.43
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:28:01.079493Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 438ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    438ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,163.99 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,163.99
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.15
+   SOLUSDT: $85.41
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:29:01.024526Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 498ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    498ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,188.73 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,188.73
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,105.42
+   SOLUSDT: $85.48
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:30:01.046871Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 521ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    521ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,231.55 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,231.55
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,106.71
+   SOLUSDT: $85.52
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:31:00.929482Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 525ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    525ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,253.87 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,253.87
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,107.97
+   SOLUSDT: $85.57
+   XRPUSDT: $1.36
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:32:00.939908Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 570ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    570ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,222.76 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,222.76
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,105.82
+   SOLUSDT: $85.48
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:39:00.941732Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 565ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    565ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,212.14 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,212.14
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,108.16
+   SOLUSDT: $85.57
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:41:01.188175Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 563ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    563ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,181.72 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,181.72
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,106.98
+   SOLUSDT: $85.49
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:42:01.248862Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 429ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    429ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,170.00 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,170.00
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,106.85
+   SOLUSDT: $85.50
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:43:01.217432Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 594ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    594ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,151.52 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,151.52
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,105.62
+   SOLUSDT: $85.47
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:44:01.224415Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 471ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    471ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,147.16 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,147.16
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,105.43
+   SOLUSDT: $85.48
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:45:01.207487Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 667ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    667ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,124.71 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,124.71
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.87
+   SOLUSDT: $85.45
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:46:02.225533Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 526ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    526ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,094.00 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,094.00
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,103.62
+   SOLUSDT: $85.44
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:47:01.444268Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 491ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    491ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,123.15 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,123.15
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.16
+   SOLUSDT: $85.45
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:48:00.557247Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 925ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    925ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,116.00 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,116.00
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,103.71
+   SOLUSDT: $85.42
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:49:01.141625Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 521ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    521ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,153.01 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,153.01
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.46
+   SOLUSDT: $85.46
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:50:01.095722Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 1199ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    1199ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,226.53 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,226.53
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,107.18
+   SOLUSDT: $85.55
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:51:00.754084Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 545ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    545ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,194.86 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,194.86
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,106.17
+   SOLUSDT: $85.52
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:52:00.778726Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 825ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    825ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,154.83 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,154.83
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.94
+   SOLUSDT: $85.48
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:53:01.234372Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 637ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    637ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,169.92 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,169.92
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.31
+   SOLUSDT: $85.48
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:54:00.890721Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 532ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    532ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,175.80 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,175.80
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.43
+   SOLUSDT: $85.49
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:55:01.136462Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 520ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    520ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,184.01 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,184.01
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.96
+   SOLUSDT: $85.51
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:56:01.198082Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 565ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    565ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,159.24 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,159.24
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.24
+   SOLUSDT: $85.47
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:57:01.312341Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 527ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    527ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,172.72 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,172.72
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.86
+   SOLUSDT: $85.51
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:58:01.830019Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 511ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    511ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,146.23 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,146.23
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,104.66
+   SOLUSDT: $85.46
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T00:59:00.936346Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 628ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    628ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,124.27 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,124.27
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,103.58
+   SOLUSDT: $85.45
+   XRPUSDT: $1.35
+============================================================
+/Users/shahy/market-data-pipeline/pipeline_v2.py:203: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Pipeline v2 | {datetime.utcnow().isoformat()}Z")
+/Users/shahy/market-data-pipeline/pipeline_v2.py:109: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow()
+
+============================================================
+Pipeline v2 | 2026-05-25T01:00:00.972647Z
+============================================================
+Loading price history for anomaly detection...
+   Found history for 5 symbols
+
+ Fetching 5 symbols...
+Fetched 5 prices in 1311ms
+
+Running data quality checks...
+
+============================================================
+PIPELINE SUMMARY
+============================================================
+Processed:  5
+Inserted:   4
+Skipped:    0 (duplicates)
+Rejected:   1 (anomalies)
+Latency:    1311ms
+
+REJECTED RECORDS:
+   BTCUSDT: $77,176.84 | Reason: PRICE_SPIKE_ANOMALY
+      Last known: $100.00
+
+CURRENT PRICES:
+   BTCUSDT: $77,176.84
+   DOGEUSDT: $0.10
+   ETHUSDT: $2,105.76
+   SOLUSDT: $85.52
+   XRPUSDT: $1.35
+============================================================
