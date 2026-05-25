@@ -2,7 +2,6 @@
 
 A production-ready ETL pipeline that fetches live cryptocurrency prices from multiple sources (Binance + CoinGecko), applies data quality checks with anomaly detection, and loads them into PostgreSQL for analytics. Built as a portfolio project for Data Engineering roles in fintech.
 
-**Live Demo:** [Add your GitHub URL here]
 
 ---
 
@@ -442,6 +441,3 @@ market-data-pipeline/
 - [ ] **Unit tests**: `pytest` with mocked API responses
 - [ ] **CI/CD**: GitHub Actions to run data quality checks on every commit
 
----
-
-Built by [Shahesta Salama] · [LinkedIn]([https://linkedin.com/in/yourname](https://www.linkedin.com/in/shahesta-salama-396566320/)) · [GitHub]([https://github.com/yourusername](https://s2800-0.github.io/portfolio/#projects))
