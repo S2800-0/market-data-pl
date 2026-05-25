@@ -480,4 +480,4 @@ Record these clips and upload to your portfolio (LinkedIn, personal site, or Git
 
 ---
 
-Built by [Your Name] · [LinkedIn](https://linkedin.com/in/yourname) · [GitHub](https://github.com/yourusername)
+Built by [Shahesta Salama] · [LinkedIn]([https://linkedin.com/in/yourname](https://www.linkedin.com/in/shahesta-salama-396566320/)) · [GitHub]([https://github.com/yourusername](https://s2800-0.github.io/portfolio/#projects))
